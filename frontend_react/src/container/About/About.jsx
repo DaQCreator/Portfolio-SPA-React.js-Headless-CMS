@@ -54,6 +54,6 @@ const About = () => {
 
 export default AppWrap(
   MotionWrap(About, 'app__about'),
-  'about',
+  'o mnie',
   // "app__whitebg"
 );

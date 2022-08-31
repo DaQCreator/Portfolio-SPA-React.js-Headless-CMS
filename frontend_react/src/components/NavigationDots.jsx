@@ -3,7 +3,7 @@ import React from 'react';
 const NavigationDots = ({ active }) => {
   return (
     <div className="app__navigation">
-      {['home', 'about', 'work', 'skills', 'testimonial', 'contact'].map((item, index) => (
+      {['start', 'o mnie', 'oferta', 'projekty', 'skille', 'kontakt'].map((item, index) => (
         // eslint-disable-next-line
         <a
           href={`#${item}`}

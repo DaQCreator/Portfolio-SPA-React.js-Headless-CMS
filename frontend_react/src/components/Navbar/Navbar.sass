@@ -20,26 +20,25 @@
   align-items: center
 
   img
-    width: 90px
+    width: 50px
     cursor: pointer
     transition: .2s ease-in-out
+    margin-top: 10px
+    margin-bottom: 10px
 
     @media screen and (min-width: 2000px)
       width: 120px
 
     @media screen and (max-width: 900px)
-      width: 50px
-      margin-left: -10px
-      margin-top: 10px
-      scroll-margin-bottom: 10px
+      width: 35px
 
     &:hover
       transform: rotate(90deg)
 
 .app__navbar-links
-  flex: 0.3
+  flex: 1
   display: flex
-  justify-content: center
+  justify-content: flex-end
   align-items: center
 
   list-style: none
@@ -71,9 +70,9 @@
       &:hover
         color: var(--secondary-color)
 
-      &:hover
-        div
-          background-color: var(--secondary-color)
+    &:hover
+      div
+        background-color: var(--secondary-color)
 
     @media screen and (max-width: 900px)
       display: none
@@ -88,7 +87,7 @@
   display: flex
   justify-content: center
   align-items: center
-  background-color: var(--secondary-color)
+  background-color: var(--rich-black-fogra)
 
   svg
     width: 70%
@@ -113,8 +112,8 @@
     flex-direction: column
 
     background: url('../../assets/stock/bgIMG.png')
-    background-color: var(--rich-black-fogra)
-    backdrop-filter: blur(4px)
+    background-color: rgba(0, 0, 0, 0.5)
+    backdrop-filter: blur(8px)
     background-size: cover
     background-repeat: repeat
 
