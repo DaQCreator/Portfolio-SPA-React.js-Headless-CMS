@@ -26,19 +26,22 @@ const Header = () => {
       >
         <div className="app__header-badge">
           <div className="badge-cmp app__flex">
-            <span>👋</span>
-            <div style={{ marginLeft: 20 }}>
-              <p className="p-text">Hello, I'm</p>
-              <h1 className="head-text">Daniel</h1>
+            <div>
+              <p className="p-text">Full Stack Web Developer</p>
+              <h1 className="head-text"><span style={{ marginRight: 8 }}>👋</span>DaQCreator</h1>
+              <div>
+                <p className="p1-text">Stworzę Twój projekt kompleksowo:</p>
+                <ul>
+                  <li><p className="li-text">Indywidualny lub gotowy szablon</p></li>
+                  <li><p className="li-text">Nowoczesna grafika, projekt UI/UX</p></li>
+                  <li><p className="li-text">Responsywność, prostota w obsłudze</p></li>
+                  <li><p className="li-text">Szybkość działania i optymalizacja</p></li>
+                  <li><p className="li-text">Szkolenie z obsługi</p></li>
+                  <li><p className="li-text">Utrzymanie i rozwój istniejących projektów</p></li>
+                </ul>
+                <button type="button"><a href="#kontakt" className="p-text">Poproś o wycenę</a></button>
+              </div>
             </div>
-          </div>
-
-          <div className="tag-cmp app__flex">
-            <p className="p-text">Web Developer</p>
-            <p className="p-text">Freelancer</p>
-          </div>
-          <div className="tag-cmp app__flex">
-            <a href="mailto:daqcreator@gmail.com"><p className="p-text">@DaQCreator</p></a>
           </div>
         </div>
       </motion.div>

@@ -37,7 +37,7 @@ const Work = () => {
 
   return (
     <>
-      <h2 className="head-text">My latest<br /><span>projects</span> section</h2>
+      <h2 className="head-text">Moje ostatnie<br /><span>projekty</span></h2>
 
       <div className="app__work-filter">
         {['Websites', 'Web App', 'Wordpress', 'UI/UX', 'All'].map((item, index) => (

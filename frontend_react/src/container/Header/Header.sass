@@ -41,7 +41,7 @@
 
   @media screen and (max-width: 1200px)
     width: 100%
-    margin-right: 0rem
+    margin:
 
 .app__header-badge
   width: 100%
@@ -52,6 +52,46 @@
 
   .badge-cmp
     margin-top: 2rem
+
+    .p-text
+      color: var(--primary-color)
+      font-weight: 500
+
+    h1
+      padding-bottom: 1rem
+
+    ul
+      margin-top: .5rem
+      margin-left: 1rem
+
+      li
+        color: var(--secondary-color)
+
+    button
+      padding: 1rem 2rem
+      border-radius: 10px
+      border: none
+      background-color: var(--secondary-color)
+
+      font-weight: 500
+      color: var(--white-color)
+      outline: none
+      margin: 1rem 0 0 0
+      font-family: var(--font-base)
+
+      transition: cubic-bezier(0.55, 0.085, 0.68, 0.53)
+      cursor: pointer
+
+      .p-text
+        text-transform: uppercase
+        text-decoration: none
+
+      &:hover
+        background-color: var(--blue-color)
+
+    @media screen and (max-width: 768px)
+      width: 100%
+      margin: 1rem 0
 
   .badge-cmp,
   .tag-cmp
@@ -82,9 +122,9 @@
     @media screen and (min-width: 2000px)
       font-size: 5rem
 
-  @media screen and (max-width: 1200px)
-    justify-content: flex-start
-    align-items: flex-start
+@media screen and (max-width: 1200px)
+  justify-content: flex-center
+  align-items: flex-start
 
 .app__header-circles
   flex: 0.75
