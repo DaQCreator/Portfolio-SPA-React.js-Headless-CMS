@@ -23,17 +23,15 @@
     width: 90px
     cursor: pointer
     transition: .2s ease-in-out
-    background: var(--rich-black-fogra)
-    border-radius: 50%
-    backdrop-filter: blur(4px)
-    border: 1px solid rgba(255, 255, 255, 0.2)
-    margin: 10px
 
     @media screen and (min-width: 2000px)
-      width: 100px
+      width: 120px
 
     @media screen and (max-width: 900px)
-      width: 35px
+      width: 50px
+      margin-left: -10px
+      margin-top: 10px
+      scroll-margin-bottom: 10px
 
     &:hover
       transform: rotate(90deg)
@@ -90,9 +88,7 @@
   display: flex
   justify-content: center
   align-items: center
-  background-color: var(--rich-black-fogra)
-  backdrop-filter: blur(4px)
-  border: 1px solid rgba(255, 255, 255, 0.2)
+  background-color: var(--secondary-color)
 
   svg
     width: 70%
@@ -117,8 +113,8 @@
     flex-direction: column
 
     background: url('../../assets/stock/bgIMG.png')
-    background-color: rgba(9, 42, 67, 0.8)
-    backdrop-filter: blur(6px)
+    background-color: var(--rich-black-fogra)
+    backdrop-filter: blur(4px)
     background-size: cover
     background-repeat: repeat
 

@@ -1,6 +1,6 @@
 .app__testimonial
   flex: 1
-  width: 90%
+  width: 100%
   flex-direction: column
 
 .app__testimonial-item
@@ -19,10 +19,10 @@
   img
     width: 25%
     height: 100%
-    object-fit: contain
+    object-fit: cover
 
     @media screen and (max-width: 900px)
-      width: 50%
+      width: 80%
       margin-bottom: 20px
 
   @media screen and (min-width: 2000px)
@@ -48,11 +48,12 @@
   align-items: flex-start
 
   p
+    font-size: 1.3rem
     color: var(--white-color)
     font-family: var(--font-base)
 
     @media screen and (min-width: 2000px)
-      font-size: 2rem
+      font-size: 2.5rem
 
   h4
     font-size: 2rem
@@ -61,7 +62,7 @@
     margin-top: 2rem
 
     @media screen and (min-width: 2000px)
-      font-size: 2.5rem
+      font-size: 3rem
 
   h5
     font-weight: 400
@@ -78,8 +79,8 @@
   cursor: pointer
 
   div
-    width: 40px
-    height: 40px
+    width: 50px
+    height: 50px
     border-radius: 50%
     background-color: var(--rich-black-fogra)
 
@@ -87,8 +88,8 @@
     transition: all 0.3s ease-in-out
 
     svg
-      width: 20px
-      height: 20px
+      width: 30px
+      height: 30px
       color: var(--secondary-color)
 
     &:hover
@@ -98,8 +99,8 @@
         color: var(--white-color)
 
     @media screen and (min-width: 2000px)
-      width: 80px
-      height: 80px
+      width: 100px
+      height: 100px
 
       svg
         width: 45px

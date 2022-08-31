@@ -1,8 +1,7 @@
-  .app {
+.app {
     background: var(--main-gradient);
     font-family: var(--font-base);
     width: 100vw;
-    
   }
   
   .app__whitebg {
@@ -14,9 +13,9 @@
   }
   
   .app__container {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
-    
+  
     display: flex;
     flex-direction: row;
   }
