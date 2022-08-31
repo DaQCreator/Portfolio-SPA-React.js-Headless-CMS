@@ -30,6 +30,8 @@ const Testimonial = () => {
 
   return (
     <>
+      <h2 className="head-text"><span>Oferta</span></h2>
+      <h2 className="head-text">Outsourcing, <span>web developer</span></h2>
       {testimonials.length && (
         <>
           <div className="app__testimonial-item app__flex">
